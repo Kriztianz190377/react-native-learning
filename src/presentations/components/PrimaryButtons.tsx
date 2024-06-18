@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
         backgroundColor: Platform.OS === 'android' ? '#1f1cd5' : 'white',
         paddingHorizontal: 20,
         paddingVertical: 10,
-        borderRadius: 10
+        borderRadius: 10,
+        marginBottom:20
     },
     buttonPressed: {
         backgroundColor: Platform.OS === 'android' ? '#4746Ab' : 'white',
